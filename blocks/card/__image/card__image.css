@@ -1,9 +1,14 @@
 .card__image {
-  display: block;
-  width: 50%;
-  max-width: 640px;
-  max-height: 640px;
-  /* width: auto; */
-  height: auto;
+  width: 640px;
+  height: 640px;
   object-fit: cover;
+  object-position: center center;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__image {
+    width: 440px;
+    max-width: 100%;
+    height: auto;
+  }
 }

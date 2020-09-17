@@ -1,10 +1,12 @@
 .card {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  /* width: 100%; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  /* justify-content: space-between;
+  flex-direction: row; */
 }
 
-.card:nth-child(2n - 1) {
+/* .card:nth-child(2n - 1) {
   flex-direction: row-reverse;
-}
+} */
+
