@@ -1,0 +1,10 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* width: 100%; */
+}
+
+.card:nth-child(2n - 1) {
+  flex-direction: row-reverse;
+}

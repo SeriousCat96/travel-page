@@ -1,3 +1,6 @@
 .photo-grid {
-
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  background-color: #f2f2f2;
 }
