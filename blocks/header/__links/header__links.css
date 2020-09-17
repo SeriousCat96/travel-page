@@ -6,5 +6,6 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(min-content, max-content)) 1fr;
   grid-template-rows: 1fr;
-  gap: 26px;
+  width: 100%;
+  gap: 0 26px;
 }
