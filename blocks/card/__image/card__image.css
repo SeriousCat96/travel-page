@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 768px) {
   .card__image {
+    max-width: 698px;
     width: 100%;
   }
 }
