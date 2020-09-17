@@ -1,3 +1,6 @@
 .header {
-    
+  width: 100%;
+  padding-top: 47px;
+  /* padding: 47px 70px 0; */
+  box-sizing: border-box;
 }
