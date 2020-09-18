@@ -12,27 +12,25 @@
   align-self: stretch;
   grid-template-columns: minmax(min-content, max-content) 1fr;
   grid-template-rows: 1fr;
-  max-width: 1140px;
   width: 100%;
-  margin: 47px auto 0;
+  padding: 47px 70px 0;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1280px) {
   .header {
     width: auto;
-    margin: 47px 70px 0;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    margin: 47px 35px 0;
+    padding: 47px 35px 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
-    margin: 30px 16px 0;
+    padding: 30px 16px 0;
   }
 }

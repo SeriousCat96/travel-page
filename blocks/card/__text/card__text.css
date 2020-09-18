@@ -1,0 +1,30 @@
+.card__text {
+  padding: 50px;
+  margin: 0;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .card__text {
+    padding: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card__text {
+    padding: 35px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .card__text {
+    padding: 16px;
+  }
+}
