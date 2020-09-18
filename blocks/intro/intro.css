@@ -1,3 +1,22 @@
 .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 225px);
+    margin: 83px 155px 132px 70px;
+}
 
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 83px auto 132px;
+        width: calc(100% - 70px);
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .intro {
+        flex-direction: column;
+        width: calc(100% - 32px);
+    }
 }
