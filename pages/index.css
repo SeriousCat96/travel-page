@@ -27,3 +27,7 @@
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+/* scroll top button */
+@import url(../blocks/scroll-top/scroll-top.css);
+@import url(../blocks/scroll-top/_visible/scroll-top_visible.css);
