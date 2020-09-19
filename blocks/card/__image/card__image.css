@@ -1,9 +1,12 @@
 .card__image {
-  max-width: 640px;
+  max-width: 50%;
   width: 50%;
   height: auto;
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: center center;
   object-position: center center;
+  flex-shrink: 0;
 }
 
 @media screen and (max-width: 768px) {

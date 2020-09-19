@@ -1,22 +1,26 @@
-var topBtn = document.querySelector('.scroll-top');
+let scrollTopBtn = document.querySelector('.scroll-top');
 
 window.addEventListener('scroll', trackScroll);
 
 function trackScroll() {
-  var scrolled = window.pageYOffset;
-  var coords   = document.documentElement.clientHeight;
+  var scrolled     = window.pageYOffset;
+  var clientHeight = document.documentElement.clientHeight;
 
-  if (scrolled > coords) {
-    topBtn.classList.add('scroll-top_visible');
+  if (scrolled > clientHeight) {
+    scrollTopBtn.classList.add('scroll-top_visible');
   }
   else {
-    topBtn.classList.remove('scroll-top_visible');
+    scrollTopBtn.classList.remove('scroll-top_visible');
   }
 }
 
-function backToTop() {
+function scrollToTop() {
   if (window.pageYOffset > 0) {
     window.scrollBy(0, -25);
-    setTimeout(backToTop, 0);
+    setTimeout(scrollToTop, 0);
   }
+}
+
+function SetScrollTheme() {
+  setSelectorTheme("scroll-top");
 }

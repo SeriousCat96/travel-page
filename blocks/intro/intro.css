@@ -3,20 +3,25 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: calc(100% - 225px);
-    margin: 83px 155px 132px 70px;
+    width: 100%;
+    padding: 83px 155px 132px 70px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        margin: 83px auto 132px;
-        width: calc(100% - 70px);
+        padding: 83px 35px 132px;
     }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 768px) {
     .intro {
         flex-direction: column;
-        width: calc(100% - 32px);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        padding: 45px 16px;
     }
 }

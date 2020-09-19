@@ -1,4 +1,4 @@
-.intro__subtitle {
+.comments__subtitle {
     font-size: 12px;
     font-weight: bold;
     line-height: 130%;
@@ -7,15 +7,15 @@
     margin: 0 0 27px;
 }
 
-@media screen and (max-width: 768px) {
-    .intro__subtitle {
+@media screen and (max-width: 690px) {
+    .comments__subtitle {
         width: 100%;
         margin-bottom: 5px;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .intro__subtitle {
+    .comments__subtitle {
         font-size: 12px;
     }
 }

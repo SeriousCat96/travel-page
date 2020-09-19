@@ -2,9 +2,17 @@
   padding: 0;
   margin: 0;
   color: black;
+  cursor: pointer;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   text-decoration: none;
+  transition: opacity .3s ease-in;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__link:hover {
+    opacity: .5;
+  }
 }

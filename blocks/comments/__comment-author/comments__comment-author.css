@@ -1,0 +1,25 @@
+.comments__comment-author {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 167%;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .comments__comment-author {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .comments__comment-author {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .comments__comment-author {
+        margin-bottom: 7px;
+    }
+}
