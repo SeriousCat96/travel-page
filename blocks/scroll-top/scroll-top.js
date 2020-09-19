@@ -20,3 +20,7 @@ function scrollToTop() {
     setTimeout(scrollToTop, 0);
   }
 }
+
+function SetScrollTheme() {
+  setSelectorTheme("scroll-top");
+}

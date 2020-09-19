@@ -1,0 +1,21 @@
+.comments__subtitle {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 130%;
+    color: #f9d6b8;
+    text-transform: uppercase;
+    margin: 0 0 27px;
+}
+
+@media screen and (max-width: 690px) {
+    .comments__subtitle {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .comments__subtitle {
+        font-size: 12px;
+    }
+}
