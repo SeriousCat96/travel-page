@@ -2,7 +2,8 @@
 function changeTheme() {
   setPageTheme();
   setHeaderTheme();
-  setIntroTheme();
+  setPhotoGridTheme();
+  SetScrollTheme();
 }
 
 /* Sets theme to page block */

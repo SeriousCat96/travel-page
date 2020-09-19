@@ -16,21 +16,28 @@
 
 /* intro */
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/_theme/intro_theme_dark.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__title/_theme/intro__title_theme_dark.css);
 @import url(../blocks/intro/__image/intro__image.css);
 
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/_theme/photo-grid_theme_dark.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__paragraph/card__paragraph.css);
 @import url(../blocks/card/__image/card__image.css);
+
+/* comments */
 @import url(../blocks/comments/comments.css);
+@import url(../blocks/comments/__container/comments__container.css);
+@import url(../blocks/comments/__subtitle/comments__subtitle.css);
+@import url(../blocks/comments/__title/comments__title.css);
+@import url(../blocks/comments/__comment/comments__comment.css);
+@import url(../blocks/comments/__comment-author/comments__comment-author.css);
+@import url(../blocks/comments/__comment-text/comments__comment-text.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);
@@ -39,3 +46,4 @@
 /* scroll top button */
 @import url(../blocks/scroll-top/scroll-top.css);
 @import url(../blocks/scroll-top/_visible/scroll-top_visible.css);
+@import url(../blocks/scroll-top/_theme/scroll-top_theme_dark.css);
