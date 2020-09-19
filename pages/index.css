@@ -9,6 +9,8 @@
 @import url(../blocks/header/__link/_pos/header__link_pos_right.css);
 
 @import url(../blocks/main/main.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
 /* intro */
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
@@ -22,7 +24,12 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__paragraph/card__paragraph.css);
 @import url(../blocks/card/__image/card__image.css);
+/* comments */
 @import url(../blocks/comments/comments.css);
+@import url(../blocks/comments/__container/comments__container.css);
+@import url(../blocks/comments/__comment/comments__comment.css);
+@import url(../blocks/comments/__comment-author/comments__comment-author.css);
+@import url(../blocks/comments/__comment-text/comments__comment-text.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);

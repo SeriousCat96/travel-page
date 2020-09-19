@@ -1,3 +1,24 @@
 .comments {
+    padding: 130px 70px 126px;
+    width: calc(100% - 140px);
+}
 
+@media screen and (max-width: 1024px) {
+    .comments {
+        width: calc(100% - 70px);
+        padding: 100px 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .comments {
+        padding: 50px 35px 100px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .comments {
+        width: calc(100% - 32px);
+        padding: 25px 16px 50px;
+    }
 }
