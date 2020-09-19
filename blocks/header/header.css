@@ -12,6 +12,7 @@
   align-self: stretch;
   grid-template-columns: minmax(min-content, max-content) 1fr;
   grid-template-rows: 1fr;
+  gap: 0 26px;
   width: 100%;
   padding: 47px 70px 0;
   box-sizing: border-box;

@@ -2,6 +2,7 @@
 function changeTheme() {
   setPageTheme();
   setHeaderTheme();
+  setIntroTheme();
 }
 
 /* Sets theme to page block */
