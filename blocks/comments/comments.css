@@ -22,10 +22,3 @@
         padding: 25px 16px 50px;
     }
 }
-
-@media screen and (max-width: 425px) {
-    .comments {
-        width: calc(100% - 32px);
-        padding: 25px 16px 50px;
-    }
-}
