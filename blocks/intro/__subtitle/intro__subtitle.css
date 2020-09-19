@@ -1,4 +1,4 @@
-.section-subtitle {
+.intro__subtitle {
     font-size: 12px;
     font-weight: bold;
     line-height: 130%;
@@ -8,14 +8,14 @@
 }
 
 @media screen and (max-width: 690px) {
-    .section-subtitle {
+    .intro__subtitle {
         width: 100%;
         margin-bottom: 5px;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .section-subtitle {
+    .intro__subtitle {
         font-size: 12px;
     }
 }

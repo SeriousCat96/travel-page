@@ -1,4 +1,4 @@
-.section-title {
+.intro__title {
     font-size: 32px;
     font-weight: bold;
     line-height: 130%;
@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width: 690px) {
-    .section-title {
+    .intro__title {
         width: 100%;
         margin-bottom: 15px;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .section-title {
+    .intro__title {
         font-size: 18px;
     }
 }
