@@ -18,13 +18,7 @@ function setSelectorTheme(selectorName) {
 
   if(elements != null) {
     for(let i = 0; i < elements.length; ++i) {
-      let element = elements[i];
-      if(element.classList.contains(themeModifierName)) {
-        element.classList.remove(themeModifierName);
-      }
-      else {
-        element.classList.add(themeModifierName);
-      }
+      elements[i].classList.toggle(themeModifierName);
     }
   }
 }
