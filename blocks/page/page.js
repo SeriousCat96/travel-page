@@ -1,3 +1,7 @@
+const changeThemeBtn = document.querySelector('.header__link.header__link_type_button');
+
+changeThemeBtn.addEventListener('click', changeTheme);
+
 /* Change theme for page */
 function changeTheme() {
   setPageTheme();

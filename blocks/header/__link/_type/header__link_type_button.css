@@ -1,0 +1,8 @@
+.header__link_type_button {
+  background: none;
+  border: none;
+}
+
+.header__link_type_button:active, .header__link_type_button:focus {
+  outline: none;
+}
